@@ -12,7 +12,7 @@ namespace Tyuiu.MalkovaMS.Sprint3.Task1.V25.Test
             int value = 2;
             int start = 1;
             int end = 6;
-            Assert.AreEqual(459914.329, ds.GetMultiplySeries(value, start, end));
+            Assert.AreEqual(844.664, ds.GetMultiplySeries(value, start, end));
         }
     }
 }

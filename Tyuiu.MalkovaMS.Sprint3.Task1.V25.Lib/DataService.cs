@@ -10,10 +10,10 @@ namespace Tyuiu.MalkovaMS.Sprint3.Task1.V25.Lib
             double res = 1;
             while (startValue <= stopValue)
             {
-                res *= (Math.Pow(value, startValue) - (1.0/4));
+                res *= (Math.Pow(value, startValue) - (1.0/4)) * Math.Cos(5);
                 startValue++;
             }
-            return Math.Round(res * Math.Cos(5), 3);
+            return Math.Round(res, 3);
         }   
     }
 }
