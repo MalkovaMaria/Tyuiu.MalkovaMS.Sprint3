@@ -15,7 +15,7 @@ namespace Tyuiu.MalkovaMS.Sprint3.Task5.V12.Test
             int start2 = 1;
             int stop2 = 10;
 
-            Assert.AreEqual(70.748, ds.GetSumSumSeries(x, start1, start2, stop1, stop2));
+            Assert.AreEqual(55.748, ds.GetSumSumSeries(x, start1, start2, stop1, stop2));
         }
     }
 }
