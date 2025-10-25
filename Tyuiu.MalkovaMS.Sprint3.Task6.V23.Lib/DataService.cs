@@ -11,7 +11,7 @@ namespace Tyuiu.MalkovaMS.Sprint3.Task6.V23.Lib
             {
                 for (int d = 1; d <= i;  d++)
                 {
-                    if (i % d == 0)
+                    if ((i % d == 0) & (d < 11))
                         res += 1;
                 }
             }
